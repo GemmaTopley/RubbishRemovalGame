@@ -28,10 +28,11 @@ body{
     width: 50%;
     background-color: rgb(200, 237, 188);
     border: 0px;
+    transition: transform 0.2s;
 }
 
 #playBtnImg:hover {
-
+    transform: scale(1.1);
 }
 
 #resetBtn, #PZBtn {
@@ -40,4 +41,17 @@ body{
     height: 100px;
     width: 100px;
     border-radius: 100%;
+    transition: transform 0.2s;
+}
+
+#resetBtn:hover, #PZBtn:hover{
+    transform: scale(1.1);
+}
+
+
+#bottom {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
 }
