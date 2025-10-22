@@ -16,3 +16,28 @@ body{
 #title {
     width: 85%;
 }
+
+#buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#playBtn, #playBtnImg {
+    width: 50%;
+    background-color: rgb(200, 237, 188);
+    border: 0px;
+}
+
+#playBtnImg:hover {
+
+}
+
+#resetBtn, #PZBtn {
+    background-color: #e6b616;
+    border: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
