@@ -2,6 +2,10 @@ body{
     background-color: rgb(200, 237, 188);
 }
 
+/*
+    home page
+*/
+
 #top{
     display: flex;
     width: 100%;
@@ -25,10 +29,16 @@ body{
 }
 
 #playBtn, #playBtnImg {
-    width: 50%;
+    width: 70%;
     background-color: rgb(200, 237, 188);
     border: 0px;
     transition: transform 0.2s;
+}
+
+#playA {
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 #playBtnImg:hover {
@@ -55,3 +65,44 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/*
+    level select
+*/
+
+#levelTop {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+#homeBtn, #homeBtnImg {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 237, 188);
+    border: 0px;
+    transition: transform 0.2s;
+}
+
+#homeBtnImg:hover{
+    transform: scale(1.1);
+}
+
+#homeA {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: fit-content;
+}
+
+#RRLogo {
+    width: 35%;
+    height: fit-content;
+}
+
+#invis {
+    visibility: hidden;
+    width: 10%;
+}
+
+
