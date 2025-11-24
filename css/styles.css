@@ -106,3 +106,17 @@ body{
 }
 
 
+#levelSelect {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#beachLvlA, #forestLvlA {
+    width: 45%;
+    display: block;
+    position: relative;
+}
+
+#beachLvlImg, #forestLvlImg {
+    width: 100%;
+}
